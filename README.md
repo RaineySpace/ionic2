@@ -5,10 +5,23 @@
 
 *您可以点击小标题跳转到相应的ionic2英文文档。*
 
-## [ActionSheet](http://ionicframework.com/docs/v2/api/components/action-sheet/ActionSheet/)
-ActionSheet是一个对话框，让用户选择一个选项。而且用户必须要选择其中一个选项才能恢复与应用程序的交互（点击背景会执行`cancle`的事件）。当然也可以利用背景或者后退键来取消对话框从而恢复和程序的交互。
+## 前言
 
-ActionSheet会从一个数组创建它的按钮选项。每一个按钮都拥有一些属性，例如`text` `handler` `role` 等等。如果`handler`返回`false`时，ActionSheet将不会被销毁。ActionSheet还可以选择有一个标题和副标题。
+声明：本仓库中的例子程序使用了ionic官方的例子[ionic-preview-app](https://github.com/driftyco/ionic-preview-app)。
+
+运行：
+
+- `git clone git@github.com:Raineye/ionic2.git`
+- `cd ionic-preview-app`
+- `npm install`
+- `ionic serve`
+
+
+
+## [ActionSheet](http://ionicframework.com/docs/v2/api/components/action-sheet/ActionSheet/)
+ActionSheet是一个对话框，让用户选择一个选项。而且用户必须要选择其中一个选项才能恢复与应用程序的交互（点击背景会执行`cancel`的事件）。当然也可以利用背景或者后退键来取消对话框从而恢复和程序的交互。
+
+ActionSheet会从一个`button`数组创建它的按钮选项。每一个按钮都拥有一些属性，例如`text` `handler` `role` 等等。如果`handler`返回`false`时，ActionSheet将不会消失。ActionSheet还可以选择有一个标题和副标题。
 
 如果有一个button的`role`被设置为`cancel`那么这个按钮不管位于按钮数组的哪个位置它都会位于底部。ionic官方建议`destructive`类型的按钮最好位于数组的第一个位置。另外，如果ActionSheet是由于点击背景而被取消的，那么它将会执行和`cancle`类型的按钮点击一样的事件。
 
