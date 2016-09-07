@@ -5,6 +5,8 @@
 
 *您可以点击小标题跳转到相应的ionic2英文文档。*
 
+*[也许这里的排版更容易各位阅读](http://rainey.space/2016/04/06/Ionic2_Chinese_Document/)*
+
 ## 前言
 
 声明：本仓库中的例子程序使用了ionic官方的例子[ionic-preview-app](https://github.com/driftyco/ionic-preview-app)。
@@ -48,7 +50,7 @@
 - [Nav](/app/pages/nav)
 - [Navbar](/app/pages/navbar)
 - [NavController](/app/pages/navController)
-<!-- - [Navigation](/app/pages/navigation) -->
+- [Navigation](/app/pages/navigation)
 - [NavParams](/app/pages/navParams)
 - [NavPop](/app/pages/navPop)
 - [NavPush](/app/pages/navPush)
